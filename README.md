@@ -1,5 +1,5 @@
 ### Introduction
-This script can split coca6000 vocabulary into small groups to be imported into
+This script can split [COCA](https://www.wordfrequency.info/) vocabulary into small groups to be imported into
 dictionary app (e.g. Eudic) for studying.
 
 Please refer to [COCA 词频表使用](https://zhuanlan.zhihu.com/p/53261968) and [快速掌握 COCA 词汇表](https://zhuanlan.zhihu.com/p/56823867).
@@ -12,7 +12,7 @@ This script is orginally written in Python 2, so make sure you have Python 2 ins
 ### Usage
 
 ```
-python split.py coca60000.txt 15
+python split.py coca20000.txt 15
 ```
 
 ##### Note:
