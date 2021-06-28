@@ -21,4 +21,4 @@ The last number 15 is the group size, it means each group contains 15 words, you
 ### Files
 
 - **`coca20000.txt`** contains the origianl vocabulary list
-- **`coca_refinded`** contains the final refined vocabulary list according to this article [快速掌握 COCA 词汇表](https://zhuanlan.zhihu.com/p/56823867)
+- **`coca_refinded.txt`** contains the final refined vocabulary list according to this article [快速掌握 COCA 词汇表](https://zhuanlan.zhihu.com/p/56823867)
