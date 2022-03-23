@@ -20005,7 +20005,7 @@ whispered
 plaintive
 poke
 framing
-ugh	2198
+ugh
 drowning
 impassive
 pewter
@@ -20144,7 +20144,7 @@ Mojave
 Olympian
 retroactive
 assay
-mistrust	2199
+mistrust
 endoscopic
 retraining
 butter

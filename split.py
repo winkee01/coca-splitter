@@ -1,9 +1,8 @@
 # -*- coding:utf-8 -*-
-#! /usr/local/bin/python
+#! /usr/bin/python3
 
 import sys
 import os
-import re
 import timeit
 # from sets import Set
 
@@ -51,7 +50,7 @@ def strip_spaces(input_file):
 # generate a file, with splits, that can be used for batch-importing of Eudic
 def batch_import(input_file, num_of_words):
     if (len(sys.argv) < 3):
-        print "split size is not specified, use default:%d" % split_size
+        print("split size is not specified, use default:%d" % split_size)
     else:
         num_of_words = int(sys.argv[2])
 
@@ -93,7 +92,7 @@ def strip_meanings(input_file):
 # split words into groups with specified group size
 def splitwords(input_file, num_of_words):
     if (len(sys.argv) < 3):
-        print "split size is not specified, use default:%d" % split_size
+        print("split size is not specified, use default:%d" % split_size)
     else:
         num_of_words = int(sys.argv[2])
 
@@ -167,7 +166,7 @@ def main(argv):
     # strip_meanings(input_file)
 
     stop = timeit.default_timer()
-    print 'Time elapsed: {}'.format(stop - start)
+    print('Time elapsed: {}'.format(stop - start))
 
 if __name__ == "__main__":
     main(sys.argv)

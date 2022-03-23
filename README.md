@@ -7,13 +7,14 @@ Please refer to [COCA 词频表使用](https://zhuanlan.zhihu.com/p/53261968) an
 ### Requirements
 - **Python 2**
 
-This script is orginally written in Python 2, so make sure you have Python 2 installed in your environment. Also, the script does not have any third-party library dependencies, so you don't need to install anything other than Python 2.
+This script is orginally written in Python 2, now has updated to Python3, so please make sure you have Python 3 installed in your environment. For my it's `/usr/bin/python3`.
 
 ### Usage
 
 ```
 python split.py coca20000.txt 15
 ```
+by default, the **Output file** is `coca20000_batch_import.txt`.
 
 ##### Note:
 The last number 15 is the group size, it means each group contains 15 words, you can change it to your need.
